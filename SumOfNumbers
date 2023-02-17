@@ -1,0 +1,27 @@
+import java.util.Scanner;  
+public class SumOfNumbers2  
+{  
+public static void main(String args[])  
+{  
+int x, y,,z,a,b, sum;  
+Scanner sc = new Scanner(System.in);  
+System.out.print("Enter the first number: ");  
+x = sc.nextInt();  
+System.out.print("Enter the second number: ");  
+y = sc.nextInt();
+System.out.print("Enter the third number: ");  
+z = sc.nextInt();  
+System.out.print("Enter the fourth number: ");  
+a = sc.nextInt();
+System.out.print("Enter the fifth number: ");  
+b = sc.nextInt();  
+sum = sum(x, y,z,a,b);  
+System.out.println("The sum of two numbers x, y,z,a and b is: " + sum);  
+}  
+//method that calculates the sum  
+public static int sum(int x, int y,int z, int a, int b)  
+{  
+int sum = x+y+z+a+b;  
+return sum;  
+}  
+}  
